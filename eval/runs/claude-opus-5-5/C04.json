@@ -1,0 +1,412 @@
+{
+  "files": {
+    "invoice": "蘇韻7720 IV.pdf",
+    "attachment": "蘇韻7720.pdf"
+  },
+  "llm": "claude:claude-opus-5-5",
+  "pages": [
+    {
+      "file": "invoice",
+      "page": 1,
+      "type": "invoice",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 1,
+      "type": "po",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 2,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 3,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 4,
+      "type": "commitment",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 5,
+      "type": "dimension_report",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 6,
+      "type": "dimension_report",
+      "method": "llm-text+continuation"
+    },
+    {
+      "file": "attachment",
+      "page": 7,
+      "type": "approval",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 8,
+      "type": "cost_breakdown",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 9,
+      "type": "spec",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 10,
+      "type": "custody",
+      "method": "keyword"
+    }
+  ],
+  "documents": {
+    "invoice": {
+      "file": "invoice",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "invoice_no": {
+          "value": "SY-2026-1102",
+          "raw": "SY-2026-1102",
+          "page": 1,
+          "quote": "Invoice No.\nSY-2026-1102",
+          "verified": true
+        },
+        "invoice_date": {
+          "value": "2026-11-02",
+          "raw": "02 Nov 2026",
+          "page": 1,
+          "quote": "Invoice Date\n02 Nov 2026",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "SUZHOU SUYUN PRECISION TOOLING CO., LTD",
+          "raw": "SUZHOU SUYUN PRECISION TOOLING CO., LTD",
+          "page": 1,
+          "quote": "SUZHOU SUYUN PRECISION TOOLING CO., LTD",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318839",
+          "raw": "4502318839",
+          "page": 1,
+          "quote": "Customer PO\n4502318839",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260421",
+          "raw": "KT-M260421",
+          "page": 1,
+          "quote": "1x8\nKT-M260421\n1 SET",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "Currency\nUSD",
+          "verified": true
+        },
+        "amount_untaxed": {
+          "value": 23750.0,
+          "raw": "23,750.00",
+          "page": 1,
+          "quote": "TOTAL\nUSD 23,750.00",
+          "verified": true
+        },
+        "tax": {
+          "value": null,
+          "raw": null,
+          "page": 1,
+          "quote": "Tax: zero-rated export of tooling",
+          "verified": null
+        }
+      }
+    },
+    "po": {
+      "file": "attachment",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318839",
+          "raw": "4502318839",
+          "page": 1,
+          "quote": "採購單號 PO No. 4502318839",
+          "verified": true
+        },
+        "po_date": {
+          "value": "2026-04-21",
+          "raw": "2026/04/21",
+          "page": 1,
+          "quote": "訂單日期 Date 2026/04/21",
+          "verified": true
+        },
+        "vendor_code": {
+          "value": "100517",
+          "raw": "100517",
+          "page": 1,
+          "quote": "供應商代號 Vendor 100517",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "苏州苏韵精工模具有限公司",
+          "raw": "苏州苏韵精工模具有限公司",
+          "page": 1,
+          "quote": "供應商 Supplier 苏州苏韵精工模具有限公司",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260421",
+          "raw": "KT-M260421",
+          "page": 1,
+          "quote": "MOULD 1x8 KT-M260421 1 SET",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "幣別 Currency USD",
+          "verified": true
+        },
+        "amount": {
+          "value": 27350.0,
+          "raw": "27,350.00",
+          "page": 1,
+          "quote": "未稅合計 USD 27,350.00",
+          "verified": true
+        }
+      }
+    },
+    "photos": {
+      "file": "attachment",
+      "pages": [
+        2,
+        3
+      ],
+      "fields": {}
+    },
+    "commitment": {
+      "file": "attachment",
+      "pages": [
+        4
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318839",
+          "raw": "4502318839",
+          "page": 4,
+          "quote": "（以下简称甲方）采购订单 4502318839",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260421",
+          "raw": "KT-M260421",
+          "page": 4,
+          "quote": "所列模具（模具编号 KT-M260421），特此承诺如下",
+          "verified": true
+        },
+        "vendor_stamped": {
+          "value": true,
+          "raw": "yes",
+          "page": 4,
+          "quote": "苏州苏韵精工模具有限公司 合同专用章",
+          "verified": null
+        }
+      }
+    },
+    "dimension_report": {
+      "file": "attachment",
+      "pages": [
+        5,
+        6
+      ],
+      "fields": {}
+    },
+    "approval": {
+      "file": "attachment",
+      "pages": [
+        7
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260421",
+          "raw": "KT-M260421",
+          "page": 7,
+          "quote": "模具编号 KT-M260421",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318839",
+          "raw": "4502318839",
+          "page": 7,
+          "quote": "采购订单号 4502318839",
+          "verified": true
+        },
+        "approval_date": {
+          "value": "2026-07-14",
+          "raw": "2026-07-14",
+          "page": 7,
+          "quote": "判定：承认 日期：2026-07-14",
+          "verified": true
+        },
+        "result": {
+          "value": "approved",
+          "raw": "承认",
+          "page": 7,
+          "quote": "判定：承认 日期：2026-07-14",
+          "verified": true
+        },
+        "signed_roles": {
+          "value": [
+            "design",
+            "me",
+            "qa"
+          ],
+          "raw": "design,qa,me",
+          "page": 7,
+          "quote": "模具设计 王磊 2026-07-14 品保 楊雅雯 2026-07-14",
+          "verified": null
+        }
+      }
+    },
+    "cost_breakdown": {
+      "file": "attachment",
+      "pages": [
+        8
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318839",
+          "raw": "4502318839",
+          "page": 8,
+          "quote": "采购订单号 4502318839",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260421",
+          "raw": "KT-M260421",
+          "page": 8,
+          "quote": "模具编号 KT-M260421",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 8,
+          "quote": "币别 USD",
+          "verified": true
+        },
+        "total": {
+          "value": 27350.0,
+          "raw": "27,350.00",
+          "page": 8,
+          "quote": "合计 USD 27,350.00",
+          "verified": true
+        }
+      }
+    },
+    "spec": {
+      "file": "attachment",
+      "pages": [
+        9
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260421",
+          "raw": "KT-M260421",
+          "page": 9,
+          "quote": "模具编号\nKT-M260421",
+          "verified": true
+        },
+        "cavities": {
+          "value": "1x8",
+          "raw": "1x8",
+          "page": 9,
+          "quote": "模穴数\n1x8",
+          "verified": true
+        },
+        "steel": {
+          "value": "S136",
+          "raw": "S136",
+          "page": 9,
+          "quote": "模具钢材\nS136",
+          "verified": true
+        },
+        "shot_life": {
+          "value": 1000000,
+          "raw": "1,000,000",
+          "page": 9,
+          "quote": "设计寿命（模次）\n1,000,000",
+          "verified": true
+        }
+      }
+    },
+    "custody": {
+      "file": "attachment",
+      "pages": [
+        10
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318839",
+          "raw": "4502318839",
+          "page": 10,
+          "quote": "采购订单号\n4502318839",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260421",
+          "raw": "KT-M260421",
+          "page": 10,
+          "quote": "模具编号\nKT-M260421",
+          "verified": true
+        },
+        "storage_location": {
+          "value": "廠商端－蘇州蘇韻滸關廠 模具倉",
+          "raw": "廠商端－蘇州蘇韻滸關廠 模具倉",
+          "page": 10,
+          "quote": "存放地点\n廠商端－蘇州蘇韻滸關廠 模具倉",
+          "verified": true
+        },
+        "custodian_id": {
+          "value": "K30244",
+          "raw": "K30244",
+          "page": 10,
+          "quote": "甲方保管人\n蘇怡安（K30244）",
+          "verified": true
+        }
+      }
+    }
+  },
+  "seconds": 24.5,
+  "usage": {
+    "calls": 8,
+    "input_tokens": 15963,
+    "output_tokens": 1576,
+    "cost_usd": 0.095372
+  }
+}

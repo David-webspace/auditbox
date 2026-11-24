@@ -1,0 +1,22 @@
+# owner 決定結果分類：vendor → 待廠商補件、pic → 內部處理、sourcing → 主檔維護
+required_docs: [invoice, po, commitment, approval, spec, custody, cost_breakdown]
+required_approval_roles: [design, qa, me]
+amount_tolerance: 0.5
+
+rules:
+  R01: {name: 必備文件齊全, owner: vendor}
+  R02: {name: PO 號各文件一致, owner: vendor}
+  R03: {name: 模具編號各文件一致, owner: vendor}
+  R04: {name: 發票未稅金額 = PO 金額 = 明細表合計, owner: vendor, note: 幣別不同時不比金額，交給 R05}
+  R05: {name: 發票幣別與 PO 一致, owner: vendor}
+  R06: {name: 廠商在主檔且狀態有效, owner: sourcing}
+  R07: {name: 承認書簽核完整, owner: vendor}
+  R08: {name: 保管人工號在職, owner: pic}
+  R09: {name: SAP 有 GR 且金額相符, owner: pic}
+  R10: {name: 未重複請款, owner: pic}
+  R11: {name: 日期合理（PO 日 ≤ 承認日，PO 日 ≤ 發票日）, owner: vendor}
+  R12: {name: 發票稅率符合主檔, owner: vendor}
+  R13: {name: 發票賣方與主檔廠商相符（含別名）, owner: vendor}
+
+# 多種問題同時存在時，依此順序決定結果
+outcome_priority: [sourcing, vendor, pic]

@@ -1,0 +1,125 @@
+{
+  "case_id": "C12",
+  "pic": "Ming",
+  "scenario": "保管人已離職",
+  "scanned": false,
+  "files": {
+    "invoice": "PenangTool4419 IV.pdf",
+    "attachment": "PenangTool4419.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "custody": [
+      2,
+      2
+    ],
+    "dimension_report": [
+      3,
+      5
+    ],
+    "photos": [
+      6,
+      9
+    ],
+    "commitment": [
+      10,
+      10
+    ],
+    "spec": [
+      11,
+      11
+    ],
+    "cost_breakdown": [
+      12,
+      12
+    ],
+    "approval": [
+      13,
+      13
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "PTM-INV-2611-021",
+      "invoice_date": "2026-11-09",
+      "vendor_name": "PENANG TOOLMAKERS SDN. BHD.",
+      "po_no": "4502318964",
+      "mold_no": "KT-M260702",
+      "currency": "USD",
+      "amount_untaxed": 24750.0,
+      "tax": 0
+    },
+    "po": {
+      "po_no": "4502318964",
+      "po_date": "2026-07-02",
+      "vendor_code": "300099",
+      "vendor_name": "PENANG TOOLMAKERS SDN. BHD.",
+      "mold_no": "KT-M260702",
+      "currency": "USD",
+      "amount": 24750.0
+    },
+    "commitment": {
+      "po_no": "4502318964",
+      "mold_no": "KT-M260702",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260702",
+      "po_no": "4502318964",
+      "approval_date": "2026-09-16",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "qa",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260702",
+      "cavities": "1x4",
+      "steel": "S136",
+      "shot_life": 1000000
+    },
+    "custody": {
+      "po_no": "4502318964",
+      "mold_no": "KT-M260702",
+      "storage_location": "Vendor site - Penang Toolmakers Bayan Lepas, Rack 7",
+      "custodian_id": "K30209"
+    },
+    "cost_breakdown": {
+      "po_no": "4502318964",
+      "mold_no": "KT-M260702",
+      "currency": "USD",
+      "total": 24750.0
+    }
+  },
+  "expected_issues": [
+    "R08"
+  ],
+  "expected_outcome": "internal_action",
+  "acceptance_form": {
+    "申請人": "王思明",
+    "部門": "採購部",
+    "廠商名稱": "PENANG TOOLMAKERS SDN. BHD.",
+    "廠商代號": "300099",
+    "PO 號": "4502318964",
+    "PO 項次": "10",
+    "GR 號": "5000871648",
+    "收貨日期": "2026-10-07",
+    "驗收日期": "2026-09-16",
+    "資產類別": "模具",
+    "品名": "AOC 線材尾套 射出模 1x4",
+    "模具編號": "KT-M260702",
+    "模穴數": "1x4",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "USD",
+    "未稅總價": 24750.0,
+    "存放地點": "Vendor site - Penang Toolmakers Bayan Lepas, Rack 7",
+    "保管人工號": "K30209",
+    "保管人姓名": "鄭宇翔"
+  }
+}

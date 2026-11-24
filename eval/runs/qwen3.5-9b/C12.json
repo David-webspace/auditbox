@@ -1,0 +1,427 @@
+{
+  "files": {
+    "invoice": "PenangTool4419 IV.pdf",
+    "attachment": "PenangTool4419.pdf"
+  },
+  "llm": "ollama:qwen3.5:9b",
+  "pages": [
+    {
+      "file": "invoice",
+      "page": 1,
+      "type": "invoice",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 1,
+      "type": "po",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 2,
+      "type": "custody",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 3,
+      "type": "dimension_report",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 4,
+      "type": "dimension_report",
+      "method": "llm-text"
+    },
+    {
+      "file": "attachment",
+      "page": 5,
+      "type": "dimension_report",
+      "method": "llm-text"
+    },
+    {
+      "file": "attachment",
+      "page": 6,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 7,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 8,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 9,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 10,
+      "type": "commitment",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 11,
+      "type": "spec",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 12,
+      "type": "cost_breakdown",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 13,
+      "type": "approval",
+      "method": "keyword"
+    }
+  ],
+  "documents": {
+    "invoice": {
+      "file": "invoice",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "invoice_no": {
+          "value": "PTM-INV-2611-021",
+          "raw": "PTM-INV-2611-021",
+          "page": 1,
+          "quote": "Invoice No.\nPTM-INV-2611-021",
+          "verified": true
+        },
+        "invoice_date": {
+          "value": "2026-11-09",
+          "raw": "09 Nov 2026",
+          "page": 1,
+          "quote": "Invoice Date\n09 Nov 2026",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "PENANG TOOLMAKERS SDN. BHD.",
+          "raw": "PENANG TOOLMAKERS SDN. BHD.",
+          "page": 1,
+          "quote": "PENANG TOOLMAKERS SDN. BHD.\nPlot 88, Bayan Lepas FIZ Phase 4, Penang, Malaysia",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318964",
+          "raw": "4502318964",
+          "page": 1,
+          "quote": "Buyer\nKESTREL OPTRONICS CORP.\nCustomer PO\n4502318964",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260702",
+          "raw": "KT-M260702",
+          "page": 1,
+          "quote": "AOC CABLE BOOT INJECTION MOULD 1x4\nKT-M260702",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "Currency\nUSD",
+          "verified": true
+        },
+        "amount_untaxed": {
+          "value": 24750.0,
+          "raw": "24,750.00",
+          "page": 1,
+          "quote": "TOTAL\nUSD 24,750.00",
+          "verified": true
+        },
+        "tax": {
+          "value": null,
+          "raw": null,
+          "page": 1,
+          "quote": "Bank: (on file with buyer's AP) / Tax: zero-rated export of tooling",
+          "verified": null
+        }
+      }
+    },
+    "po": {
+      "file": "attachment",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318964",
+          "raw": "4502318964",
+          "page": 1,
+          "quote": "採購單號 PO No. 4502318964",
+          "verified": true
+        },
+        "po_date": {
+          "value": "2026-07-02",
+          "raw": "2026/07/02",
+          "page": 1,
+          "quote": "訂單日期 Date 2026/07/02",
+          "verified": true
+        },
+        "vendor_code": {
+          "value": "300099",
+          "raw": "300099",
+          "page": 1,
+          "quote": "供應商代號 Vendor 300099",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "PENANG TOOLMAKERS SDN. BHD.",
+          "raw": "PENANG TOOLMAKERS SDN. BHD.",
+          "page": 1,
+          "quote": "供應商 Supplier PENANG TOOLMAKERS SDN. BHD.",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260702",
+          "raw": "KT-M260702",
+          "page": 1,
+          "quote": "模具編號 KT-M260702",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "幣別 Currency USD",
+          "verified": true
+        },
+        "amount": {
+          "value": 24750.0,
+          "raw": "24,750.00",
+          "page": 1,
+          "quote": "未稅合計 USD 24,750.00",
+          "verified": true
+        }
+      }
+    },
+    "custody": {
+      "file": "attachment",
+      "pages": [
+        2
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318964",
+          "raw": "4502318964",
+          "page": 2,
+          "quote": "PO No.\n4502318964",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260702",
+          "raw": "KT-M260702",
+          "page": 2,
+          "quote": "Mold No.\nKT-M260702",
+          "verified": true
+        },
+        "storage_location": {
+          "value": "Vendor site - Penang Toolmakers Bayan Lepas, Rack 7",
+          "raw": "Vendor site - Penang Toolmakers\nBayan Lepas, Rack 7",
+          "page": 2,
+          "quote": "Storage Location\nVendor site - Penang Toolmakers\nBayan Lepas, Rack 7",
+          "verified": true
+        },
+        "custodian_id": {
+          "value": "K30209",
+          "raw": "K30209",
+          "page": 2,
+          "quote": "Buyer Custodian\nYuxiang Cheng（K30209）",
+          "verified": true
+        }
+      }
+    },
+    "dimension_report": {
+      "file": "attachment",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "fields": {}
+    },
+    "photos": {
+      "file": "attachment",
+      "pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "fields": {}
+    },
+    "commitment": {
+      "file": "attachment",
+      "pages": [
+        10
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318964",
+          "raw": "4502318964",
+          "page": 10,
+          "quote": "purchase order 4502318964 for mold KT-M260702",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260702",
+          "raw": "KT-M260702",
+          "page": 10,
+          "quote": "purchase order 4502318964 for mold KT-M260702",
+          "verified": true
+        },
+        "vendor_stamped": {
+          "value": true,
+          "raw": "yes",
+          "page": 10,
+          "quote": "PENANG TOOLMAK COMPANY SEAL",
+          "verified": false
+        }
+      }
+    },
+    "spec": {
+      "file": "attachment",
+      "pages": [
+        11
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260702",
+          "raw": "KT-M260702",
+          "page": null,
+          "quote": "Mold No. KT-M260702",
+          "verified": null
+        },
+        "cavities": {
+          "value": "1x4",
+          "raw": "1x4",
+          "page": null,
+          "quote": "Cavities 1x4",
+          "verified": null
+        },
+        "steel": {
+          "value": "S136",
+          "raw": "S136",
+          "page": null,
+          "quote": "Steel S136",
+          "verified": null
+        },
+        "shot_life": {
+          "value": 1000000,
+          "raw": "1,000,000",
+          "page": null,
+          "quote": "Design Life (shots) 1,000,000",
+          "verified": null
+        }
+      }
+    },
+    "cost_breakdown": {
+      "file": "attachment",
+      "pages": [
+        12
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318964",
+          "raw": "4502318964",
+          "page": 12,
+          "quote": "PO No.\n4502318964",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260702",
+          "raw": "KT-M260702",
+          "page": 12,
+          "quote": "Mold No.\nKT-M260702",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 12,
+          "quote": "Currency\nUSD",
+          "verified": true
+        },
+        "total": {
+          "value": 24750.0,
+          "raw": "USD 24,750.00",
+          "page": 12,
+          "quote": "Total\nUSD 24,750.00",
+          "verified": true
+        }
+      }
+    },
+    "approval": {
+      "file": "attachment",
+      "pages": [
+        13
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260702",
+          "raw": "KT-M260702",
+          "page": 13,
+          "quote": "Mold No.\nKT-M260702",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318964",
+          "raw": "4502318964",
+          "page": 13,
+          "quote": "PO No.\n4502318964",
+          "verified": true
+        },
+        "approval_date": {
+          "value": "2026-09-16",
+          "raw": "2026-09-16",
+          "page": 13,
+          "quote": "Result : APPROVED Date : 2026-09-16",
+          "verified": true
+        },
+        "result": {
+          "value": "approved",
+          "raw": "APPROVED",
+          "page": 13,
+          "quote": "Result : APPROVED Date : 2026-09-16",
+          "verified": true
+        },
+        "signed_roles": {
+          "value": [
+            "design",
+            "me",
+            "qa"
+          ],
+          "raw": "design,qa,me",
+          "page": 13,
+          "quote": "Mold Design\nTan Wei Liang\nQA\nYawen Yang\nME\nYuxiang Cheng",
+          "verified": false
+        }
+      }
+    }
+  },
+  "seconds": 131.8
+}

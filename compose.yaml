@@ -1,0 +1,33 @@
+name: auditbox
+
+services:
+  app:
+    build: .
+    image: auditbox:local
+    ports:
+      - "127.0.0.1:8765:8765"   # 只開給本機
+    environment:
+      AUDITBOX_LLM_PROVIDER: claude   # 預設用 Claude API，API key 在「模型設定」頁輸入；也可改用本機 Ollama
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+      AUDITBOX_MAIL_MODE: mailpit
+      MAILPIT_HOST: mailpit
+      MAILPIT_PORT: "1025"
+      MAILPIT_WEB_URL: http://localhost:8025
+      AUDITBOX_HOST_WORKSPACE: ${AUDITBOX_WORKSPACE_LABEL:-./workspace}   # 只用來顯示，家目錄縮成 ~
+    volumes:
+      - ${AUDITBOX_WORKSPACE:-./workspace}:/workspace
+      - auditbox-data:/data      # 案件資料庫與 API key，不放在共用工作區
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      - mailpit
+    restart: unless-stopped
+
+  mailpit:
+    image: axllent/mailpit:v1.34.0
+    ports:
+      - "127.0.0.1:8025:8025"   # 模擬信箱網頁；SMTP 1025 只在容器網路內
+    restart: unless-stopped
+
+volumes:
+  auditbox-data:

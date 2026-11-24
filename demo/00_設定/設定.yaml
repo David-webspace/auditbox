@@ -1,0 +1,55 @@
+company:
+  name: 隼光科技股份有限公司
+  name_en: KESTREL OPTRONICS CORP.   # 英文信使用
+  tax_id: "83920517"
+
+# 01_待處理 底下的資料夾名稱 → 承辦工號
+pics:
+  Amber: K10231
+  Kevin: K10418
+  Ming: K10552
+
+folders:
+  inbox: 01_待處理
+  forms: 02_驗收單
+  done: 03_已處理
+  manual: 04_人工處理
+  exports: 05_系統匯出
+  logs: Logs
+
+files:
+  invoice_suffix: " IV"
+  vendor_master: 模具廠商主檔表_策購維護.xlsx
+  mail_routing: 寄信對照表.xlsx
+  form_template: 資產驗收單範本.xlsx
+  sap_po: SAP_PO明細_ME2N_*.xlsx
+  sap_gr: SAP_GR明細_MB51_*.xlsx
+  ap_paid: 應付帳款_已付款模具清單_*.xlsx
+  employees: HR_員工名單_*.xlsx
+
+patterns:
+  po_no: '45\d{8}'
+  mold_no: 'KT-M\d{6}'
+  emp_id: 'K\d{5}'
+
+retry: 2
+
+llm:
+  provider: ollama
+  ollama:
+    base_url: http://localhost:11434
+    model: qwen3.5:9b
+    timeout: 300
+  # 需要環境變數 ANTHROPIC_API_KEY；文件內容會送到 Anthropic API
+  claude:
+    model: claude-opus-5-5
+    effort: low
+
+mail:
+  mode: eml
+  # 信件開頭段落交給 LLM 的範圍：internal 只有內部信、all 全部、off 全用範本
+  llm_intro: internal
+  from: auditbox@kestrel-optronics.example
+  mailpit:
+    host: localhost
+    port: 1025

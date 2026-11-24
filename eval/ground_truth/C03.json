@@ -1,0 +1,115 @@
+{
+  "case_id": "C03",
+  "pic": "Ming",
+  "scenario": "缺保管單",
+  "scanned": false,
+  "files": {
+    "invoice": "鑫拓3305 IV.pdf",
+    "attachment": "鑫拓3305.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "commitment": [
+      2,
+      2
+    ],
+    "photos": [
+      3,
+      7
+    ],
+    "spec": [
+      8,
+      8
+    ],
+    "cost_breakdown": [
+      9,
+      9
+    ],
+    "approval": [
+      10,
+      10
+    ],
+    "dimension_report": [
+      11,
+      13
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "XT20261029-03",
+      "invoice_date": "2026-10-29",
+      "vendor_name": "SHENZHEN XINTUO MOLDING TECHNOLOGY CO., LTD",
+      "po_no": "4502318826",
+      "mold_no": "KT-M260415",
+      "currency": "USD",
+      "amount_untaxed": 36800.0,
+      "tax": 0
+    },
+    "po": {
+      "po_no": "4502318826",
+      "po_date": "2026-04-15",
+      "vendor_code": "100318",
+      "vendor_name": "深圳市鑫拓模塑科技有限公司",
+      "mold_no": "KT-M260415",
+      "currency": "USD",
+      "amount": 36800.0
+    },
+    "commitment": {
+      "po_no": "4502318826",
+      "mold_no": "KT-M260415",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260415",
+      "po_no": "4502318826",
+      "approval_date": "2026-07-08",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "qa",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260415",
+      "cavities": "1+1",
+      "steel": "S136",
+      "shot_life": 500000
+    },
+    "cost_breakdown": {
+      "po_no": "4502318826",
+      "mold_no": "KT-M260415",
+      "currency": "USD",
+      "total": 36800.0
+    }
+  },
+  "expected_issues": [
+    "R01"
+  ],
+  "expected_outcome": "need_vendor_docs",
+  "acceptance_form": {
+    "申請人": "王思明",
+    "部門": "採購部",
+    "廠商名稱": "深圳市鑫拓模塑科技有限公司",
+    "廠商代號": "100318",
+    "PO 號": "4502318826",
+    "PO 項次": "10",
+    "GR 號": "5000871310",
+    "收貨日期": "2026-08-04",
+    "驗收日期": "2026-07-08",
+    "資產類別": "模具",
+    "品名": "TWS 耳機外殼 左右 射出模 1+1",
+    "模具編號": "KT-M260415",
+    "模穴數": "1+1",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "USD",
+    "未稅總價": 36800.0,
+    "存放地點": "",
+    "保管人工號": "",
+    "保管人姓名": ""
+  }
+}

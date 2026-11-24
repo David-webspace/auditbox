@@ -1,0 +1,447 @@
+{
+  "files": {
+    "invoice": "昆睿1187 IV.pdf",
+    "attachment": "昆睿1187.pdf"
+  },
+  "llm": "claude:claude-opus-5-5",
+  "pages": [
+    {
+      "file": "invoice",
+      "page": 1,
+      "type": "invoice",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 1,
+      "type": "po",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 2,
+      "type": "dimension_report",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 3,
+      "type": "dimension_report",
+      "method": "llm-text+continuation"
+    },
+    {
+      "file": "attachment",
+      "page": 4,
+      "type": "dimension_report",
+      "method": "llm-text+continuation"
+    },
+    {
+      "file": "attachment",
+      "page": 5,
+      "type": "commitment",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 6,
+      "type": "cost_breakdown",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 7,
+      "type": "spec",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 8,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 9,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 10,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 11,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 12,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 13,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 14,
+      "type": "custody",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 15,
+      "type": "approval",
+      "method": "keyword"
+    }
+  ],
+  "documents": {
+    "invoice": {
+      "file": "invoice",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "invoice_no": {
+          "value": "04412688",
+          "raw": "04412688",
+          "page": 1,
+          "quote": "发票号码 04412688",
+          "verified": true
+        },
+        "invoice_date": {
+          "value": "2026-11-03",
+          "raw": "2026年11月03日",
+          "page": 1,
+          "quote": "开票日期 2026年11月03日",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "昆山昆睿压铸有限公司",
+          "raw": "昆山昆睿压铸有限公司",
+          "page": 1,
+          "quote": "销售方名称 昆山昆睿压铸有限公司",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318874",
+          "raw": "4502318874",
+          "page": 1,
+          "quote": "备注：PO 4502318874 币别：人民币 RMB",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260506",
+          "raw": "KT-M260506",
+          "page": 1,
+          "quote": "鋁合金壓鑄模 1x2 KT-M260506",
+          "verified": true
+        },
+        "currency": {
+          "value": "RMB",
+          "raw": "人民币 RMB",
+          "page": 1,
+          "quote": "币别：人民币 RMB",
+          "verified": true
+        },
+        "amount_untaxed": {
+          "value": 386000.0,
+          "raw": "386,000.00",
+          "page": 1,
+          "quote": "合计 ¥386,000.00 ¥50,180.00",
+          "verified": true
+        },
+        "tax": {
+          "value": 50180.0,
+          "raw": "50,180.00",
+          "page": 1,
+          "quote": "合计 ¥386,000.00 ¥50,180.00",
+          "verified": true
+        }
+      }
+    },
+    "po": {
+      "file": "attachment",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318874",
+          "raw": "4502318874",
+          "page": 1,
+          "quote": "採購單號 PO No.\n4502318874",
+          "verified": true
+        },
+        "po_date": {
+          "value": "2026-05-06",
+          "raw": "2026/05/06",
+          "page": 1,
+          "quote": "訂單日期 Date\n2026/05/06",
+          "verified": true
+        },
+        "vendor_code": {
+          "value": "100452",
+          "raw": "100452",
+          "page": 1,
+          "quote": "供應商代號 Vendor\n100452",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "昆山昆睿压铸有限公司",
+          "raw": "昆山昆睿压铸有限公司",
+          "page": 1,
+          "quote": "供應商 Supplier\n昆山昆睿压铸有限公司",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260506",
+          "raw": "KT-M260506",
+          "page": 1,
+          "quote": "DIE-CAST MOULD 1x2\nKT-M260506",
+          "verified": true
+        },
+        "currency": {
+          "value": "RMB",
+          "raw": "RMB",
+          "page": 1,
+          "quote": "幣別 Currency\nRMB",
+          "verified": true
+        },
+        "amount": {
+          "value": 386000.0,
+          "raw": "386,000.00",
+          "page": 1,
+          "quote": "未稅合計\nRMB\n386,000.00",
+          "verified": true
+        }
+      }
+    },
+    "dimension_report": {
+      "file": "attachment",
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "fields": {}
+    },
+    "commitment": {
+      "file": "attachment",
+      "pages": [
+        5
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318847",
+          "raw": "4502318847",
+          "page": 5,
+          "quote": "承接隼光科技股份有限公司（以下简称甲方）采购订单 4502318847",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260506",
+          "raw": "KT-M260506",
+          "page": 5,
+          "quote": "所列模具（模具编号 KT-M260506），特此承诺如下：",
+          "verified": true
+        },
+        "vendor_stamped": {
+          "value": true,
+          "raw": "yes",
+          "page": 5,
+          "quote": "昆山昆睿压铸有限公司 合同专用章",
+          "verified": null
+        }
+      }
+    },
+    "cost_breakdown": {
+      "file": "attachment",
+      "pages": [
+        6
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318874",
+          "raw": "4502318874",
+          "page": 6,
+          "quote": "采购订单号 4502318874",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260506",
+          "raw": "KT-M260506",
+          "page": 6,
+          "quote": "模具编号 KT-M260506",
+          "verified": true
+        },
+        "currency": {
+          "value": "RMB",
+          "raw": "RMB",
+          "page": 6,
+          "quote": "币别 RMB",
+          "verified": true
+        },
+        "total": {
+          "value": 386000.0,
+          "raw": "RMB 386,000.00",
+          "page": 6,
+          "quote": "合计 RMB 386,000.00",
+          "verified": true
+        }
+      }
+    },
+    "spec": {
+      "file": "attachment",
+      "pages": [
+        7
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260506",
+          "raw": "KT-M260506",
+          "page": 7,
+          "quote": "模具编号 KT-M260506",
+          "verified": true
+        },
+        "cavities": {
+          "value": "1x2",
+          "raw": "1x2",
+          "page": 7,
+          "quote": "模穴数 1x2",
+          "verified": true
+        },
+        "steel": {
+          "value": "H13",
+          "raw": "H13",
+          "page": 7,
+          "quote": "模具钢材 H13",
+          "verified": true
+        },
+        "shot_life": {
+          "value": 150000,
+          "raw": "150,000",
+          "page": 7,
+          "quote": "设计寿命（模次） 150,000",
+          "verified": true
+        }
+      }
+    },
+    "photos": {
+      "file": "attachment",
+      "pages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "fields": {}
+    },
+    "custody": {
+      "file": "attachment",
+      "pages": [
+        14
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318874",
+          "raw": "4502318874",
+          "page": 14,
+          "quote": "采购订单号 4502318874",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260506",
+          "raw": "KT-M260506",
+          "page": 14,
+          "quote": "模具编号 KT-M260506",
+          "verified": true
+        },
+        "storage_location": {
+          "value": "厂商端－昆山昆睿玉山厂 压铸模具库",
+          "raw": "厂商端－昆山昆睿玉山厂 压铸模具库",
+          "page": 14,
+          "quote": "存放地点 厂商端－昆山昆睿玉山厂 压铸模具库",
+          "verified": true
+        },
+        "custodian_id": {
+          "value": "K30045",
+          "raw": "K30045",
+          "page": 14,
+          "quote": "甲方保管人 黃柏翰（K30045）",
+          "verified": true
+        }
+      }
+    },
+    "approval": {
+      "file": "attachment",
+      "pages": [
+        15
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260506",
+          "raw": "KT-M260506",
+          "page": 15,
+          "quote": "模具编号 KT-M260506",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318874",
+          "raw": "4502318874",
+          "page": 15,
+          "quote": "采购订单号 4502318874",
+          "verified": true
+        },
+        "approval_date": {
+          "value": "2026-07-29",
+          "raw": "2026-07-29",
+          "page": 15,
+          "quote": "判定：承认 日期：2026-07-29",
+          "verified": true
+        },
+        "result": {
+          "value": "approved",
+          "raw": "承认",
+          "page": 15,
+          "quote": "判定：承认 日期：2026-07-29",
+          "verified": true
+        },
+        "signed_roles": {
+          "value": [
+            "design",
+            "me",
+            "qa"
+          ],
+          "raw": "design,qa,me",
+          "page": 15,
+          "quote": "模具设计 周海涛 2026-07-29 品保 楊雅雯 2026-07-29",
+          "verified": null
+        }
+      }
+    }
+  },
+  "seconds": 24.2,
+  "usage": {
+    "calls": 9,
+    "input_tokens": 18310,
+    "output_tokens": 1610,
+    "cost_usd": 0.10544
+  }
+}

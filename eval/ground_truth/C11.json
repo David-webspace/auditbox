@@ -1,0 +1,125 @@
+{
+  "case_id": "C11",
+  "pic": "Kevin",
+  "scenario": "廠商不在主檔",
+  "scanned": false,
+  "files": {
+    "invoice": "博創5520 IV.pdf",
+    "attachment": "博創5520.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "spec": [
+      2,
+      2
+    ],
+    "photos": [
+      3,
+      4
+    ],
+    "commitment": [
+      5,
+      5
+    ],
+    "cost_breakdown": [
+      6,
+      6
+    ],
+    "custody": [
+      7,
+      7
+    ],
+    "approval": [
+      8,
+      8
+    ],
+    "dimension_report": [
+      9,
+      10
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "BC-2026-1108",
+      "invoice_date": "2026-11-08",
+      "vendor_name": "HUIZHOU BOCHUANG MOULD CO., LTD",
+      "po_no": "4502318956",
+      "mold_no": "KT-M260625",
+      "currency": "USD",
+      "amount_untaxed": 33400.0,
+      "tax": 0
+    },
+    "po": {
+      "po_no": "4502318956",
+      "po_date": "2026-06-25",
+      "vendor_code": "100955",
+      "vendor_name": "惠州博创模具有限公司",
+      "mold_no": "KT-M260625",
+      "currency": "USD",
+      "amount": 33400.0
+    },
+    "commitment": {
+      "po_no": "4502318956",
+      "mold_no": "KT-M260625",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260625",
+      "po_no": "4502318956",
+      "approval_date": "2026-09-09",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "qa",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260625",
+      "cavities": "1x2",
+      "steel": "NAK80",
+      "shot_life": 500000
+    },
+    "custody": {
+      "po_no": "4502318956",
+      "mold_no": "KT-M260625",
+      "storage_location": "廠商端－惠州博創仲愷廠 模具倉",
+      "custodian_id": "K30112"
+    },
+    "cost_breakdown": {
+      "po_no": "4502318956",
+      "mold_no": "KT-M260625",
+      "currency": "USD",
+      "total": 33400.0
+    }
+  },
+  "expected_issues": [
+    "R06"
+  ],
+  "expected_outcome": "master_data",
+  "acceptance_form": {
+    "申請人": "陳冠宇",
+    "部門": "採購部",
+    "廠商名稱": "惠州博創模具有限公司",
+    "廠商代號": "100955",
+    "PO 號": "4502318956",
+    "PO 項次": "10",
+    "GR 號": "5000871612",
+    "收貨日期": "2026-09-30",
+    "驗收日期": "2026-09-09",
+    "資產類別": "模具",
+    "品名": "TWS 充電盒底座 射出模 1x2",
+    "模具編號": "KT-M260625",
+    "模穴數": "1x2",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "USD",
+    "未稅總價": 33400.0,
+    "存放地點": "廠商端－惠州博創仲愷廠 模具倉",
+    "保管人工號": "K30112",
+    "保管人姓名": "吳佳蓉"
+  }
+}

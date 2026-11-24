@@ -1,0 +1,125 @@
+{
+  "case_id": "C04",
+  "pic": "Amber",
+  "scenario": "發票金額與 PO 不符",
+  "scanned": false,
+  "files": {
+    "invoice": "蘇韻7720 IV.pdf",
+    "attachment": "蘇韻7720.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "photos": [
+      2,
+      3
+    ],
+    "commitment": [
+      4,
+      4
+    ],
+    "dimension_report": [
+      5,
+      6
+    ],
+    "approval": [
+      7,
+      7
+    ],
+    "cost_breakdown": [
+      8,
+      8
+    ],
+    "spec": [
+      9,
+      9
+    ],
+    "custody": [
+      10,
+      10
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "SY-2026-1102",
+      "invoice_date": "2026-11-02",
+      "vendor_name": "SUZHOU SUYUN PRECISION TOOLING CO., LTD",
+      "po_no": "4502318839",
+      "mold_no": "KT-M260421",
+      "currency": "USD",
+      "amount_untaxed": 23750.0,
+      "tax": 0
+    },
+    "po": {
+      "po_no": "4502318839",
+      "po_date": "2026-04-21",
+      "vendor_code": "100517",
+      "vendor_name": "苏州苏韵精工模具有限公司",
+      "mold_no": "KT-M260421",
+      "currency": "USD",
+      "amount": 27350.0
+    },
+    "commitment": {
+      "po_no": "4502318839",
+      "mold_no": "KT-M260421",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260421",
+      "po_no": "4502318839",
+      "approval_date": "2026-07-14",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "qa",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260421",
+      "cavities": "1x8",
+      "steel": "S136",
+      "shot_life": 1000000
+    },
+    "custody": {
+      "po_no": "4502318839",
+      "mold_no": "KT-M260421",
+      "storage_location": "廠商端－蘇州蘇韻滸關廠 模具倉",
+      "custodian_id": "K30244"
+    },
+    "cost_breakdown": {
+      "po_no": "4502318839",
+      "mold_no": "KT-M260421",
+      "currency": "USD",
+      "total": 27350.0
+    }
+  },
+  "expected_issues": [
+    "R04"
+  ],
+  "expected_outcome": "need_vendor_docs",
+  "acceptance_form": {
+    "申請人": "林雅婷",
+    "部門": "採購部",
+    "廠商名稱": "蘇州蘇韻精工模具有限公司",
+    "廠商代號": "100517",
+    "PO 號": "4502318839",
+    "PO 項次": "10",
+    "GR 號": "5000871355",
+    "收貨日期": "2026-08-11",
+    "驗收日期": "2026-07-14",
+    "資產類別": "模具",
+    "品名": "LC 光纖連接器卡扣 射出模 1x8",
+    "模具編號": "KT-M260421",
+    "模穴數": "1x8",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "USD",
+    "未稅總價": 27350.0,
+    "存放地點": "廠商端－蘇州蘇韻滸關廠 模具倉",
+    "保管人工號": "K30244",
+    "保管人姓名": "蘇怡安"
+  }
+}

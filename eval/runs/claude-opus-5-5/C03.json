@@ -1,0 +1,397 @@
+{
+  "files": {
+    "invoice": "鑫拓3305 IV.pdf",
+    "attachment": "鑫拓3305.pdf"
+  },
+  "llm": "claude:claude-opus-5-5",
+  "pages": [
+    {
+      "file": "invoice",
+      "page": 1,
+      "type": "invoice",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 1,
+      "type": "po",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 2,
+      "type": "commitment",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 3,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 4,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 5,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 6,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 7,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 8,
+      "type": "spec",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 9,
+      "type": "cost_breakdown",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 10,
+      "type": "approval",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 11,
+      "type": "dimension_report",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 12,
+      "type": "dimension_report",
+      "method": "llm-text+continuation"
+    },
+    {
+      "file": "attachment",
+      "page": 13,
+      "type": "dimension_report",
+      "method": "llm-text+continuation"
+    }
+  ],
+  "documents": {
+    "invoice": {
+      "file": "invoice",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "invoice_no": {
+          "value": "XT20261029-03",
+          "raw": "XT20261029-03",
+          "page": 1,
+          "quote": "Invoice No.\nXT20261029-03",
+          "verified": true
+        },
+        "invoice_date": {
+          "value": "2026-10-29",
+          "raw": "29 Oct 2026",
+          "page": 1,
+          "quote": "Invoice Date\n29 Oct 2026",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "SHENZHEN XINTUO MOLDING TECHNOLOGY CO., LTD",
+          "raw": "SHENZHEN XINTUO MOLDING TECHNOLOGY CO., LTD",
+          "page": 1,
+          "quote": "Seller\nSHENZHEN XINTUO MOLDING\nTECHNOLOGY CO., LTD",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318826",
+          "raw": "4502318826",
+          "page": 1,
+          "quote": "Customer PO\n4502318826",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260415",
+          "raw": "KT-M260415",
+          "page": 1,
+          "quote": "1+1\nKT-M260415\n1 SET",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "Currency\nUSD",
+          "verified": true
+        },
+        "amount_untaxed": {
+          "value": 36800.0,
+          "raw": "36,800.00",
+          "page": 1,
+          "quote": "TOTAL\nUSD 36,800.00",
+          "verified": true
+        },
+        "tax": {
+          "value": null,
+          "raw": null,
+          "page": 1,
+          "quote": "Tax: zero-rated export of tooling",
+          "verified": null
+        }
+      }
+    },
+    "po": {
+      "file": "attachment",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318826",
+          "raw": "4502318826",
+          "page": 1,
+          "quote": "採購單號 PO No.\n4502318826",
+          "verified": true
+        },
+        "po_date": {
+          "value": "2026-04-15",
+          "raw": "2026/04/15",
+          "page": 1,
+          "quote": "訂單日期 Date\n2026/04/15",
+          "verified": true
+        },
+        "vendor_code": {
+          "value": "100318",
+          "raw": "100318",
+          "page": 1,
+          "quote": "供應商代號 Vendor\n100318",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "深圳市鑫拓模塑科技有限公司",
+          "raw": "深圳市鑫拓模塑科技有限公司",
+          "page": 1,
+          "quote": "供應商 Supplier\n深圳市鑫拓模塑科技有限公司",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260415",
+          "raw": "KT-M260415",
+          "page": 1,
+          "quote": "MOULD 1+1\nKT-M260415\n1 SET",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "幣別 Currency\nUSD",
+          "verified": true
+        },
+        "amount": {
+          "value": 36800.0,
+          "raw": "36,800.00",
+          "page": 1,
+          "quote": "未稅合計\nUSD\n36,800.00",
+          "verified": true
+        }
+      }
+    },
+    "commitment": {
+      "file": "attachment",
+      "pages": [
+        2
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318826",
+          "raw": "4502318826",
+          "page": 2,
+          "quote": "承接隼光科技股份有限公司（以下简称甲方）采购订单 4502318826",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260415",
+          "raw": "KT-M260415",
+          "page": 2,
+          "quote": "所列模具（模具编号 KT-M260415），特此承诺如下",
+          "verified": true
+        },
+        "vendor_stamped": {
+          "value": true,
+          "raw": "yes",
+          "page": 2,
+          "quote": "深圳市鑫拓模塑科技有限公司 合同专用章",
+          "verified": null
+        }
+      }
+    },
+    "photos": {
+      "file": "attachment",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fields": {}
+    },
+    "spec": {
+      "file": "attachment",
+      "pages": [
+        8
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260415",
+          "raw": "KT-M260415",
+          "page": 8,
+          "quote": "模具编号\nKT-M260415",
+          "verified": true
+        },
+        "cavities": {
+          "value": "1+1",
+          "raw": "1+1",
+          "page": 8,
+          "quote": "模穴数\n1+1",
+          "verified": true
+        },
+        "steel": {
+          "value": "S136",
+          "raw": "S136",
+          "page": 8,
+          "quote": "模具钢材\nS136",
+          "verified": true
+        },
+        "shot_life": {
+          "value": 500000,
+          "raw": "500,000",
+          "page": 8,
+          "quote": "设计寿命（模次）\n500,000",
+          "verified": true
+        }
+      }
+    },
+    "cost_breakdown": {
+      "file": "attachment",
+      "pages": [
+        9
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318826",
+          "raw": "4502318826",
+          "page": 9,
+          "quote": "采购订单号 4502318826",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260415",
+          "raw": "KT-M260415",
+          "page": 9,
+          "quote": "模具编号 KT-M260415",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 9,
+          "quote": "币别 USD",
+          "verified": true
+        },
+        "total": {
+          "value": 36800.0,
+          "raw": "36,800.00",
+          "page": 9,
+          "quote": "合计 USD 36,800.00",
+          "verified": true
+        }
+      }
+    },
+    "approval": {
+      "file": "attachment",
+      "pages": [
+        10
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260415",
+          "raw": "KT-M260415",
+          "page": 10,
+          "quote": "模具编号 KT-M260415",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318826",
+          "raw": "4502318826",
+          "page": 10,
+          "quote": "采购订单号 4502318826",
+          "verified": true
+        },
+        "approval_date": {
+          "value": "2026-07-08",
+          "raw": "2026-07-08",
+          "page": 10,
+          "quote": "判定：承认 日期：2026-07-08",
+          "verified": true
+        },
+        "result": {
+          "value": "approved",
+          "raw": "承认",
+          "page": 10,
+          "quote": "判定：承认 日期：2026-07-08",
+          "verified": true
+        },
+        "signed_roles": {
+          "value": [
+            "design",
+            "me",
+            "qa"
+          ],
+          "raw": "design,qa,me",
+          "page": 10,
+          "quote": "模具设计 陈晓燕 2026-07-08 品保 楊雅雯 2026-07-08",
+          "verified": null
+        }
+      }
+    },
+    "dimension_report": {
+      "file": "attachment",
+      "pages": [
+        11,
+        12,
+        13
+      ],
+      "fields": {}
+    }
+  },
+  "seconds": 22.5,
+  "usage": {
+    "calls": 8,
+    "input_tokens": 16155,
+    "output_tokens": 1434,
+    "cost_usd": 0.0933
+  }
+}

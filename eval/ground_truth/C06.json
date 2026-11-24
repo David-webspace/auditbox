@@ -1,0 +1,124 @@
+{
+  "case_id": "C06",
+  "pic": "Ming",
+  "scenario": "承認書未簽品保",
+  "scanned": false,
+  "files": {
+    "invoice": "VietAn3307 IV.pdf",
+    "attachment": "VietAn3307.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "commitment": [
+      2,
+      2
+    ],
+    "custody": [
+      3,
+      3
+    ],
+    "photos": [
+      4,
+      5
+    ],
+    "dimension_report": [
+      6,
+      6
+    ],
+    "cost_breakdown": [
+      7,
+      7
+    ],
+    "spec": [
+      8,
+      8
+    ],
+    "approval": [
+      9,
+      9
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "VAM-INV-26-0388",
+      "invoice_date": "2026-11-04",
+      "vendor_name": "VIET AN MOLD TECHNOLOGY CO., LTD",
+      "po_no": "4502318885",
+      "mold_no": "KT-M260512",
+      "currency": "USD",
+      "amount_untaxed": 21900.0,
+      "tax": 0
+    },
+    "po": {
+      "po_no": "4502318885",
+      "po_date": "2026-05-12",
+      "vendor_code": "300041",
+      "vendor_name": "VIET AN MOLD TECHNOLOGY CO., LTD",
+      "mold_no": "KT-M260512",
+      "currency": "USD",
+      "amount": 21900.0
+    },
+    "commitment": {
+      "po_no": "4502318885",
+      "mold_no": "KT-M260512",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260512",
+      "po_no": "4502318885",
+      "approval_date": "2026-08-05",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260512",
+      "cavities": "1x1",
+      "steel": "NAK80",
+      "shot_life": 300000
+    },
+    "custody": {
+      "po_no": "4502318885",
+      "mold_no": "KT-M260512",
+      "storage_location": "Vendor site - Viet An Que Vo plant, Tool Store 1",
+      "custodian_id": "K30301"
+    },
+    "cost_breakdown": {
+      "po_no": "4502318885",
+      "mold_no": "KT-M260512",
+      "currency": "USD",
+      "total": 21900.0
+    }
+  },
+  "expected_issues": [
+    "R07"
+  ],
+  "expected_outcome": "need_vendor_docs",
+  "acceptance_form": {
+    "申請人": "王思明",
+    "部門": "採購部",
+    "廠商名稱": "VIET AN MOLD TECHNOLOGY CO., LTD",
+    "廠商代號": "300041",
+    "PO 號": "4502318885",
+    "PO 項次": "10",
+    "GR 號": "5000871447",
+    "收貨日期": "2026-09-01",
+    "驗收日期": "2026-08-05",
+    "資產類別": "模具",
+    "品名": "行動電源外殼 射出模 1x1",
+    "模具編號": "KT-M260512",
+    "模穴數": "1x1",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "USD",
+    "未稅總價": 21900.0,
+    "存放地點": "Vendor site - Viet An Que Vo plant, Tool Store 1",
+    "保管人工號": "K30301",
+    "保管人姓名": "高子晴"
+  }
+}

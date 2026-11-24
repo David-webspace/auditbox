@@ -1,0 +1,125 @@
+{
+  "case_id": "C07",
+  "pic": "Amber",
+  "scenario": "發票幣別與 PO 不符",
+  "scanned": false,
+  "files": {
+    "invoice": "華盛5162 IV.pdf",
+    "attachment": "華盛5162.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "photos": [
+      2,
+      5
+    ],
+    "spec": [
+      6,
+      6
+    ],
+    "approval": [
+      7,
+      7
+    ],
+    "commitment": [
+      8,
+      8
+    ],
+    "custody": [
+      9,
+      9
+    ],
+    "dimension_report": [
+      10,
+      11
+    ],
+    "cost_breakdown": [
+      12,
+      12
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "HS-2026-1105",
+      "invoice_date": "2026-11-05",
+      "vendor_name": "DONGGUAN HUASHENG METAL STAMPING CO., LTD",
+      "po_no": "4502318893",
+      "mold_no": "KT-M260520",
+      "currency": "RMB",
+      "amount_untaxed": 132060.0,
+      "tax": 0
+    },
+    "po": {
+      "po_no": "4502318893",
+      "po_date": "2026-05-20",
+      "vendor_code": "100609",
+      "vendor_name": "东莞华盛五金冲压有限公司",
+      "mold_no": "KT-M260520",
+      "currency": "USD",
+      "amount": 18600.0
+    },
+    "commitment": {
+      "po_no": "4502318893",
+      "mold_no": "KT-M260520",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260520",
+      "po_no": "4502318893",
+      "approval_date": "2026-08-12",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "qa",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260520",
+      "cavities": "連續模 12 工站",
+      "steel": "SKD11",
+      "shot_life": 2000000
+    },
+    "custody": {
+      "po_no": "4502318893",
+      "mold_no": "KT-M260520",
+      "storage_location": "廠商端－東莞華盛塘廈廠 沖模倉",
+      "custodian_id": "K30244"
+    },
+    "cost_breakdown": {
+      "po_no": "4502318893",
+      "mold_no": "KT-M260520",
+      "currency": "USD",
+      "total": 18600.0
+    }
+  },
+  "expected_issues": [
+    "R05"
+  ],
+  "expected_outcome": "need_vendor_docs",
+  "acceptance_form": {
+    "申請人": "林雅婷",
+    "部門": "採購部",
+    "廠商名稱": "東莞華盛五金衝壓有限公司",
+    "廠商代號": "100609",
+    "PO 號": "4502318893",
+    "PO 項次": "10",
+    "GR 號": "5000871490",
+    "收貨日期": "2026-09-08",
+    "驗收日期": "2026-08-12",
+    "資產類別": "模具",
+    "品名": "800G 光模組拉環 沖壓連續模",
+    "模具編號": "KT-M260520",
+    "模穴數": "連續模 12 工站",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "USD",
+    "未稅總價": 18600.0,
+    "存放地點": "廠商端－東莞華盛塘廈廠 沖模倉",
+    "保管人工號": "K30244",
+    "保管人姓名": "蘇怡安"
+  }
+}

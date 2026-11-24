@@ -1,0 +1,125 @@
+{
+  "case_id": "C08",
+  "pic": "Kevin",
+  "scenario": "SAP 查無 GR",
+  "scanned": false,
+  "files": {
+    "invoice": "立旭8840 IV.pdf",
+    "attachment": "立旭8840.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "custody": [
+      2,
+      2
+    ],
+    "approval": [
+      3,
+      3
+    ],
+    "spec": [
+      4,
+      4
+    ],
+    "commitment": [
+      5,
+      5
+    ],
+    "dimension_report": [
+      6,
+      7
+    ],
+    "cost_breakdown": [
+      8,
+      8
+    ],
+    "photos": [
+      9,
+      11
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "AB-37190788",
+      "invoice_date": "2026-11-06",
+      "vendor_name": "立旭精密股份有限公司",
+      "po_no": "4502318921",
+      "mold_no": "KT-M260603",
+      "currency": "TWD",
+      "amount_untaxed": 742000.0,
+      "tax": 37100
+    },
+    "po": {
+      "po_no": "4502318921",
+      "po_date": "2026-06-03",
+      "vendor_code": "200233",
+      "vendor_name": "立旭精密股份有限公司",
+      "mold_no": "KT-M260603",
+      "currency": "TWD",
+      "amount": 742000.0
+    },
+    "commitment": {
+      "po_no": "4502318921",
+      "mold_no": "KT-M260603",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260603",
+      "po_no": "4502318921",
+      "approval_date": "2026-08-19",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "qa",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260603",
+      "cavities": "1x1",
+      "steel": "SKD11",
+      "shot_life": 800000
+    },
+    "custody": {
+      "po_no": "4502318921",
+      "mold_no": "KT-M260603",
+      "storage_location": "廠商端－立旭台中廠 模具區 C",
+      "custodian_id": "K30112"
+    },
+    "cost_breakdown": {
+      "po_no": "4502318921",
+      "mold_no": "KT-M260603",
+      "currency": "TWD",
+      "total": 742000.0
+    }
+  },
+  "expected_issues": [
+    "R09"
+  ],
+  "expected_outcome": "internal_action",
+  "acceptance_form": {
+    "申請人": "陳冠宇",
+    "部門": "採購部",
+    "廠商名稱": "立旭精密股份有限公司",
+    "廠商代號": "200233",
+    "PO 號": "4502318921",
+    "PO 項次": "10",
+    "GR 號": "",
+    "收貨日期": "",
+    "驗收日期": "2026-08-19",
+    "資產類別": "模具",
+    "品名": "藍牙喇叭網罩 沖壓模 1x1",
+    "模具編號": "KT-M260603",
+    "模穴數": "1x1",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "TWD",
+    "未稅總價": 742000.0,
+    "存放地點": "廠商端－立旭臺中廠 模具區 C",
+    "保管人工號": "K30112",
+    "保管人姓名": "吳佳蓉"
+  }
+}

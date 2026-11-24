@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #1f3a5f;
+  --color-navy-dark: #162b47;
+  --font-sans: "Microsoft JhengHei", "PingFang TC", "Noto Sans TC", system-ui, sans-serif;
+  --font-mono: "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+}
+
+@utility btn {
+  @apply rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40;
+}
+
+body {
+  background: #f4f6f9;
+  color: #1c2430;
+}

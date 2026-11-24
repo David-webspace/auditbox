@@ -1,0 +1,419 @@
+{
+  "files": {
+    "invoice": "嘉鴻6118 IV.pdf",
+    "attachment": "嘉鴻6118.pdf"
+  },
+  "llm": "claude:claude-opus-5-5",
+  "pages": [
+    {
+      "file": "invoice",
+      "page": 1,
+      "type": "invoice",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 1,
+      "type": "po",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 2,
+      "type": "approval",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 3,
+      "type": "spec",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 4,
+      "type": "dimension_report",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 5,
+      "type": "dimension_report",
+      "method": "llm-text+continuation"
+    },
+    {
+      "file": "attachment",
+      "page": 6,
+      "type": "commitment",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 7,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 8,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 9,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 10,
+      "type": "cost_breakdown",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 11,
+      "type": "custody",
+      "method": "keyword"
+    }
+  ],
+  "documents": {
+    "invoice": {
+      "file": "invoice",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "invoice_no": {
+          "value": "AB-37190256",
+          "raw": "AB-37190256",
+          "page": 1,
+          "quote": "發票號碼 AB-37190256",
+          "verified": true
+        },
+        "invoice_date": {
+          "value": "2026-10-31",
+          "raw": "2026-10-31",
+          "page": 1,
+          "quote": "開立日期 2026-10-31",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "嘉鴻模具工業股份有限公司",
+          "raw": "嘉鴻模具工業股份有限公司",
+          "page": 1,
+          "quote": "賣方 嘉鴻模具工業股份有限公司",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318812",
+          "raw": "4502318812",
+          "page": 1,
+          "quote": "備註：PO 4502318812 幣別：新台幣 TWD",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260402",
+          "raw": "KT-M260402",
+          "page": 1,
+          "quote": "TWS 充電盒上蓋 射出模 1x2（KT-M260402）",
+          "verified": true
+        },
+        "currency": {
+          "value": "TWD",
+          "raw": "TWD",
+          "page": 1,
+          "quote": "幣別：新台幣 TWD",
+          "verified": true
+        },
+        "amount_untaxed": {
+          "value": 1286000.0,
+          "raw": "1,286,000",
+          "page": 1,
+          "quote": "銷售額合計 1,286,000",
+          "verified": true
+        },
+        "tax": {
+          "value": 64300.0,
+          "raw": "64,300",
+          "page": 1,
+          "quote": "營業稅（5%） 64,300",
+          "verified": true
+        }
+      }
+    },
+    "po": {
+      "file": "attachment",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318812",
+          "raw": "4502318812",
+          "page": 1,
+          "quote": "採購單號 PO No. 4502318812",
+          "verified": true
+        },
+        "po_date": {
+          "value": "2026-04-02",
+          "raw": "2026/04/02",
+          "page": 1,
+          "quote": "訂單日期 Date 2026/04/02",
+          "verified": true
+        },
+        "vendor_code": {
+          "value": "200108",
+          "raw": "200108",
+          "page": 1,
+          "quote": "供應商代號 Vendor 200108",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "嘉鴻模具工業股份有限公司",
+          "raw": "嘉鴻模具工業股份有限公司",
+          "page": 1,
+          "quote": "供應商 Supplier 嘉鴻模具工業股份有限公司",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260402",
+          "raw": "KT-M260402",
+          "page": 1,
+          "quote": "INJECTION MOLD 1x2 KT-M260402",
+          "verified": true
+        },
+        "currency": {
+          "value": "TWD",
+          "raw": "TWD",
+          "page": 1,
+          "quote": "幣別 Currency TWD",
+          "verified": true
+        },
+        "amount": {
+          "value": 1286000.0,
+          "raw": "1,286,000.00",
+          "page": 1,
+          "quote": "未稅合計 TWD 1,286,000.00",
+          "verified": true
+        }
+      }
+    },
+    "approval": {
+      "file": "attachment",
+      "pages": [
+        2
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260402",
+          "raw": "KT-M260402",
+          "page": 2,
+          "quote": "模具編號 KT-M260402",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318812",
+          "raw": "4502318812",
+          "page": 2,
+          "quote": "採購訂單號 4502318812",
+          "verified": true
+        },
+        "approval_date": {
+          "value": "2026-06-30",
+          "raw": "2026-06-30",
+          "page": 2,
+          "quote": "判定：承認 日期：2026-06-30",
+          "verified": true
+        },
+        "result": {
+          "value": "approved",
+          "raw": "承認",
+          "page": 2,
+          "quote": "判定：承認 日期：2026-06-30",
+          "verified": true
+        },
+        "signed_roles": {
+          "value": [
+            "design",
+            "me",
+            "qa"
+          ],
+          "raw": "design,qa,me",
+          "page": 2,
+          "quote": "模具設計 蔡文彬 2026-06-30 品保 楊雅雯 2026-06-30 機構工程（ME） 吳佳蓉",
+          "verified": null
+        }
+      }
+    },
+    "spec": {
+      "file": "attachment",
+      "pages": [
+        3
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260402",
+          "raw": "KT-M260402",
+          "page": 3,
+          "quote": "模具編號 KT-M260402",
+          "verified": true
+        },
+        "cavities": {
+          "value": "1x2",
+          "raw": "1x2",
+          "page": 3,
+          "quote": "模穴數 1x2",
+          "verified": true
+        },
+        "steel": {
+          "value": "NAK80",
+          "raw": "NAK80",
+          "page": 3,
+          "quote": "模具鋼材 NAK80",
+          "verified": true
+        },
+        "shot_life": {
+          "value": 500000,
+          "raw": "500,000",
+          "page": 3,
+          "quote": "設計壽命（模次） 500,000",
+          "verified": true
+        }
+      }
+    },
+    "dimension_report": {
+      "file": "attachment",
+      "pages": [
+        4,
+        5
+      ],
+      "fields": {}
+    },
+    "commitment": {
+      "file": "attachment",
+      "pages": [
+        6
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318812",
+          "raw": "4502318812",
+          "page": 6,
+          "quote": "（以下簡稱甲方）採購訂單 4502318812",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260402",
+          "raw": "KT-M260402",
+          "page": 6,
+          "quote": "所列模具（模具編號 KT-M260402），特此承諾如下：",
+          "verified": true
+        },
+        "vendor_stamped": {
+          "value": true,
+          "raw": "yes",
+          "page": 6,
+          "quote": "嘉鴻模具工業股份有限公司 合同专用章",
+          "verified": null
+        }
+      }
+    },
+    "photos": {
+      "file": "attachment",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "fields": {}
+    },
+    "cost_breakdown": {
+      "file": "attachment",
+      "pages": [
+        10
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318812",
+          "raw": "4502318812",
+          "page": 10,
+          "quote": "採購訂單號 4502318812",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260402",
+          "raw": "KT-M260402",
+          "page": 10,
+          "quote": "模具編號 KT-M260402",
+          "verified": true
+        },
+        "currency": {
+          "value": "TWD",
+          "raw": "TWD",
+          "page": 10,
+          "quote": "幣別 TWD",
+          "verified": true
+        },
+        "total": {
+          "value": 1286000.0,
+          "raw": "1,286,000.00",
+          "page": 10,
+          "quote": "合計 TWD 1,286,000.00",
+          "verified": true
+        }
+      }
+    },
+    "custody": {
+      "file": "attachment",
+      "pages": [
+        11
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318812",
+          "raw": "4502318812",
+          "page": 11,
+          "quote": "採購訂單號 4502318812",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260402",
+          "raw": "KT-M260402",
+          "page": 11,
+          "quote": "模具編號 KT-M260402",
+          "verified": true
+        },
+        "storage_location": {
+          "value": "廠商端－嘉鴻五股廠 2F 模具區",
+          "raw": "廠商端－嘉鴻五股廠 2F 模具區",
+          "page": 11,
+          "quote": "存放地點 廠商端－嘉鴻五股廠 2F 模具區",
+          "verified": true
+        },
+        "custodian_id": {
+          "value": "K30112",
+          "raw": "K30112",
+          "page": 11,
+          "quote": "甲方保管人 吳佳蓉（K30112）",
+          "verified": true
+        }
+      }
+    }
+  },
+  "seconds": 23.8,
+  "usage": {
+    "calls": 8,
+    "input_tokens": 15866,
+    "output_tokens": 1604,
+    "cost_usd": 0.095544
+  }
+}

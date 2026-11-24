@@ -1,0 +1,447 @@
+{
+  "files": {
+    "invoice": "恆岳2066 IV.pdf",
+    "attachment": "恆岳2066.pdf"
+  },
+  "llm": "claude:claude-haiku-5-5",
+  "pages": [
+    {
+      "file": "invoice",
+      "page": 1,
+      "type": "invoice",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 1,
+      "type": "po",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 2,
+      "type": "custody",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 3,
+      "type": "spec",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 4,
+      "type": "dimension_report",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 5,
+      "type": "dimension_report",
+      "method": "llm-text+continuation"
+    },
+    {
+      "file": "attachment",
+      "page": 6,
+      "type": "dimension_report",
+      "method": "llm-text+continuation"
+    },
+    {
+      "file": "attachment",
+      "page": 7,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 8,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 9,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 10,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 11,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 12,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 13,
+      "type": "cost_breakdown",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 14,
+      "type": "approval",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 15,
+      "type": "commitment",
+      "method": "keyword"
+    }
+  ],
+  "documents": {
+    "invoice": {
+      "file": "invoice",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "invoice_no": {
+          "value": "HY-INV-2026-0784",
+          "raw": "HY-INV-2026-0784",
+          "page": 1,
+          "quote": "Invoice No. HY-INV-2026-0784",
+          "verified": true
+        },
+        "invoice_date": {
+          "value": "2026-09-18",
+          "raw": "18 Sep 2026",
+          "page": 1,
+          "quote": "Invoice Date 18 Sep 2026",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "DONGGUAN HENGYUE PRECISION MOULD CO., LTD",
+          "raw": "DONGGUAN HENGYUE PRECISION MOULD CO., LTD",
+          "page": 1,
+          "quote": "Seller DONGGUAN HENGYUE PRECISION MOULD CO., LTD",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318938",
+          "raw": "4502318938",
+          "page": 1,
+          "quote": "Customer PO 4502318938",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260611",
+          "raw": "KT-M260611",
+          "page": 1,
+          "quote": "1x2 KT-M260611 1 SET",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "Currency USD",
+          "verified": true
+        },
+        "amount_untaxed": {
+          "value": 52600.0,
+          "raw": "USD 52,600.00",
+          "page": 1,
+          "quote": "TOTAL USD 52,600.00",
+          "verified": true
+        },
+        "tax": {
+          "value": null,
+          "raw": null,
+          "page": 1,
+          "quote": "Tax: zero-rated export of tooling",
+          "verified": null
+        }
+      }
+    },
+    "po": {
+      "file": "attachment",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318938",
+          "raw": "4502318938",
+          "page": 1,
+          "quote": "採購單號 PO No. 4502318938",
+          "verified": true
+        },
+        "po_date": {
+          "value": "2026-06-11",
+          "raw": "2026/06/11",
+          "page": 1,
+          "quote": "訂單日期 Date 2026/06/11",
+          "verified": true
+        },
+        "vendor_code": {
+          "value": "100231",
+          "raw": "100231",
+          "page": 1,
+          "quote": "供應商代號 Vendor 100231",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "东莞恒岳精密模具有限公司",
+          "raw": "东莞恒岳精密模具有限公司",
+          "page": 1,
+          "quote": "供應商 Supplier 东莞恒岳精密模具有限公司",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260611",
+          "raw": "KT-M260611",
+          "page": 1,
+          "quote": "模具編號 KT-M260611",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "幣別 Currency USD",
+          "verified": true
+        },
+        "amount": {
+          "value": 52600.0,
+          "raw": "52,600.00",
+          "page": 1,
+          "quote": "未稅合計 USD 52,600.00",
+          "verified": true
+        }
+      }
+    },
+    "custody": {
+      "file": "attachment",
+      "pages": [
+        2
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318938",
+          "raw": "4502318938",
+          "page": 2,
+          "quote": "采购订单号 4502318938",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260611",
+          "raw": "KT-M260611",
+          "page": 2,
+          "quote": "模具编号 KT-M260611",
+          "verified": true
+        },
+        "storage_location": {
+          "value": "廠商端－東莞恒岳長安廠 B棟模具倉",
+          "raw": "廠商端－東莞恒岳長安廠 B棟模具倉",
+          "page": 2,
+          "quote": "存放地点 廠商端－東莞恒岳長安廠 B 棟模具倉",
+          "verified": true
+        },
+        "custodian_id": {
+          "value": "K30187",
+          "raw": "K30187",
+          "page": 2,
+          "quote": "甲方保管人 許志明（K30187）",
+          "verified": true
+        }
+      }
+    },
+    "spec": {
+      "file": "attachment",
+      "pages": [
+        3
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260611",
+          "raw": "KT-M260611",
+          "page": 3,
+          "quote": "模具编号 KT-M260611 产品料号 61-OS16-HS01",
+          "verified": true
+        },
+        "cavities": {
+          "value": "1x2",
+          "raw": "1x2",
+          "page": 3,
+          "quote": "模穴数 1x2 模具钢材 H13",
+          "verified": true
+        },
+        "steel": {
+          "value": "H13",
+          "raw": "H13",
+          "page": 3,
+          "quote": "模具钢材 H13 Mold base LKM CI-3035",
+          "verified": true
+        },
+        "shot_life": {
+          "value": 200000,
+          "raw": "200,000",
+          "page": 3,
+          "quote": "设计寿命（模次） 200,000 Cycle time (s) 20",
+          "verified": true
+        }
+      }
+    },
+    "dimension_report": {
+      "file": "attachment",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "fields": {}
+    },
+    "photos": {
+      "file": "attachment",
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "fields": {}
+    },
+    "cost_breakdown": {
+      "file": "attachment",
+      "pages": [
+        13
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318938",
+          "raw": "4502318938",
+          "page": 13,
+          "quote": "采购订单号 4502318938",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260611",
+          "raw": "KT-M260611",
+          "page": 13,
+          "quote": "模具编号 KT-M260611",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 13,
+          "quote": "币别 USD",
+          "verified": true
+        },
+        "total": {
+          "value": 52600.0,
+          "raw": "USD 52,600.00",
+          "page": 13,
+          "quote": "合计 USD 52,600.00",
+          "verified": true
+        }
+      }
+    },
+    "approval": {
+      "file": "attachment",
+      "pages": [
+        14
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260611",
+          "raw": "KT-M260611",
+          "page": null,
+          "quote": "模具编号 KT-M260611",
+          "verified": null
+        },
+        "po_no": {
+          "value": "4502318938",
+          "raw": "4502318938",
+          "page": null,
+          "quote": "采购订单号 4502318938",
+          "verified": null
+        },
+        "approval_date": {
+          "value": "2026-08-26",
+          "raw": "2026-08-26",
+          "page": null,
+          "quote": "判定：承认 日期：2026-08-26",
+          "verified": null
+        },
+        "result": {
+          "value": "approved",
+          "raw": "判定：承认 日期：2026-08-26",
+          "page": null,
+          "quote": "判定：承认 日期：2026-08-26",
+          "verified": null
+        },
+        "signed_roles": {
+          "value": [
+            "design",
+            "me",
+            "qa"
+          ],
+          "raw": "design,qa,me",
+          "page": null,
+          "quote": "模具设计 刘伟 2026-08-26 品保 楊雅雯 2026-08-26 机构工程（ME） 許志明 2026-08-26",
+          "verified": null
+        }
+      }
+    },
+    "commitment": {
+      "file": "attachment",
+      "pages": [
+        15
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318938",
+          "raw": "4502318938",
+          "page": 15,
+          "quote": "采购订单号 4502318938 所列模具（模具编号 KT-M260611）",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260611",
+          "raw": "KT-M260611",
+          "page": 15,
+          "quote": "模具编号 KT-M260611",
+          "verified": true
+        },
+        "vendor_stamped": {
+          "value": true,
+          "raw": "yes",
+          "page": 15,
+          "quote": "东莞恒岳精密模具有限公司 合同专用章",
+          "verified": null
+        }
+      }
+    }
+  },
+  "seconds": 18.7,
+  "usage": {
+    "calls": 9,
+    "input_tokens": 17457,
+    "output_tokens": 2674,
+    "cost_usd": 0.003083
+  }
+}

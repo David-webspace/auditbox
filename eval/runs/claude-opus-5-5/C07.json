@@ -1,0 +1,426 @@
+{
+  "files": {
+    "invoice": "華盛5162 IV.pdf",
+    "attachment": "華盛5162.pdf"
+  },
+  "llm": "claude:claude-opus-5-5",
+  "pages": [
+    {
+      "file": "invoice",
+      "page": 1,
+      "type": "invoice",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 1,
+      "type": "po",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 2,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 3,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 4,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 5,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 6,
+      "type": "spec",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 7,
+      "type": "approval",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 8,
+      "type": "commitment",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 9,
+      "type": "custody",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 10,
+      "type": "dimension_report",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 11,
+      "type": "dimension_report",
+      "method": "llm-text+continuation"
+    },
+    {
+      "file": "attachment",
+      "page": 12,
+      "type": "cost_breakdown",
+      "method": "keyword"
+    }
+  ],
+  "documents": {
+    "invoice": {
+      "file": "invoice",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "invoice_no": {
+          "value": "HS-2026-1105",
+          "raw": "HS-2026-1105",
+          "page": 1,
+          "quote": "Invoice No.\nHS-2026-1105",
+          "verified": true
+        },
+        "invoice_date": {
+          "value": "2026-11-05",
+          "raw": "05 Nov 2026",
+          "page": 1,
+          "quote": "Invoice Date\n05 Nov 2026",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "DONGGUAN HUASHENG METAL STAMPING CO., LTD",
+          "raw": "DONGGUAN HUASHENG METAL STAMPING CO., LTD",
+          "page": 1,
+          "quote": "Seller\nDONGGUAN HUASHENG METAL\nSTAMPING CO., LTD",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318893",
+          "raw": "4502318893",
+          "page": 1,
+          "quote": "Customer PO\n4502318893",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260520",
+          "raw": "KT-M260520",
+          "page": 1,
+          "quote": "STAMPING DIE\nKT-M260520",
+          "verified": true
+        },
+        "currency": {
+          "value": "RMB",
+          "raw": "RMB",
+          "page": 1,
+          "quote": "Currency\nRMB",
+          "verified": true
+        },
+        "amount_untaxed": {
+          "value": 132060.0,
+          "raw": "132,060.00",
+          "page": 1,
+          "quote": "TOTAL\nRMB 132,060.00",
+          "verified": true
+        },
+        "tax": {
+          "value": null,
+          "raw": null,
+          "page": null,
+          "quote": null,
+          "verified": null
+        }
+      }
+    },
+    "po": {
+      "file": "attachment",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318893",
+          "raw": "4502318893",
+          "page": 1,
+          "quote": "採購單號 PO No. 4502318893",
+          "verified": true
+        },
+        "po_date": {
+          "value": "2026-05-20",
+          "raw": "2026/05/20",
+          "page": 1,
+          "quote": "訂單日期 Date 2026/05/20",
+          "verified": true
+        },
+        "vendor_code": {
+          "value": "100609",
+          "raw": "100609",
+          "page": 1,
+          "quote": "供應商代號 Vendor 100609",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "东莞华盛五金冲压有限公司",
+          "raw": "东莞华盛五金冲压有限公司",
+          "page": 1,
+          "quote": "供應商 Supplier 东莞华盛五金冲压有限公司",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260520",
+          "raw": "KT-M260520",
+          "page": 1,
+          "quote": "PROGRESSIVE STAMPING DIE KT-M260520",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "幣別 Currency USD",
+          "verified": true
+        },
+        "amount": {
+          "value": 18600.0,
+          "raw": "18,600.00",
+          "page": 1,
+          "quote": "未稅合計 USD 18,600.00",
+          "verified": true
+        }
+      }
+    },
+    "photos": {
+      "file": "attachment",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "fields": {}
+    },
+    "spec": {
+      "file": "attachment",
+      "pages": [
+        6
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260520",
+          "raw": "KT-M260520",
+          "page": 6,
+          "quote": "模具编号 KT-M260520",
+          "verified": true
+        },
+        "cavities": {
+          "value": "連續模 12 工站",
+          "raw": "連續模 12 工站",
+          "page": 6,
+          "quote": "模穴数 連續模 12 工站",
+          "verified": true
+        },
+        "steel": {
+          "value": "SKD11",
+          "raw": "SKD11",
+          "page": 6,
+          "quote": "模具钢材 SKD11",
+          "verified": true
+        },
+        "shot_life": {
+          "value": 2000000,
+          "raw": "2,000,000",
+          "page": 6,
+          "quote": "设计寿命（模次） 2,000,000",
+          "verified": true
+        }
+      }
+    },
+    "approval": {
+      "file": "attachment",
+      "pages": [
+        7
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260520",
+          "raw": "KT-M260520",
+          "page": 7,
+          "quote": "模具编号 KT-M260520",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318893",
+          "raw": "4502318893",
+          "page": 7,
+          "quote": "采购订单号 4502318893",
+          "verified": true
+        },
+        "approval_date": {
+          "value": "2026-08-12",
+          "raw": "2026-08-12",
+          "page": 7,
+          "quote": "判定：承认 日期：2026-08-12",
+          "verified": true
+        },
+        "result": {
+          "value": "approved",
+          "raw": "承认",
+          "page": 7,
+          "quote": "判定：承认 日期：2026-08-12",
+          "verified": true
+        },
+        "signed_roles": {
+          "value": [
+            "design",
+            "me",
+            "qa"
+          ],
+          "raw": "design,qa,me",
+          "page": 7,
+          "quote": "模具设计 黄志强 2026-08-12 品保 楊雅雯",
+          "verified": null
+        }
+      }
+    },
+    "commitment": {
+      "file": "attachment",
+      "pages": [
+        8
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318893",
+          "raw": "4502318893",
+          "page": 8,
+          "quote": "承接隼光科技股份有限公司（以下简称甲方）采购订单 4502318893",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260520",
+          "raw": "KT-M260520",
+          "page": 8,
+          "quote": "所列模具（模具编号 KT-M260520），特此承诺如下：",
+          "verified": true
+        },
+        "vendor_stamped": {
+          "value": true,
+          "raw": "yes",
+          "page": 8,
+          "quote": "东莞华盛五金冲压有限公司 合同专用章",
+          "verified": null
+        }
+      }
+    },
+    "custody": {
+      "file": "attachment",
+      "pages": [
+        9
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318893",
+          "raw": "4502318893",
+          "page": 9,
+          "quote": "采购订单号 4502318893",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260520",
+          "raw": "KT-M260520",
+          "page": 9,
+          "quote": "模具编号 KT-M260520",
+          "verified": true
+        },
+        "storage_location": {
+          "value": "廠商端－東莞華盛塘廈廠 沖模倉",
+          "raw": "廠商端－東莞華盛塘廈廠 沖模倉",
+          "page": 9,
+          "quote": "存放地点 廠商端－東莞華盛塘廈廠 沖模倉",
+          "verified": true
+        },
+        "custodian_id": {
+          "value": "K30244",
+          "raw": "K30244",
+          "page": 9,
+          "quote": "甲方保管人 蘇怡安（K30244）",
+          "verified": true
+        }
+      }
+    },
+    "dimension_report": {
+      "file": "attachment",
+      "pages": [
+        10,
+        11
+      ],
+      "fields": {}
+    },
+    "cost_breakdown": {
+      "file": "attachment",
+      "pages": [
+        12
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318893",
+          "raw": "4502318893",
+          "page": 12,
+          "quote": "采购订单号 4502318893",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260520",
+          "raw": "KT-M260520",
+          "page": 12,
+          "quote": "模具编号 KT-M260520",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 12,
+          "quote": "币别 USD",
+          "verified": true
+        },
+        "total": {
+          "value": 18600.0,
+          "raw": "18,600.00",
+          "page": 12,
+          "quote": "合计 USD 18,600.00",
+          "verified": true
+        }
+      }
+    }
+  },
+  "seconds": 22.6,
+  "usage": {
+    "calls": 8,
+    "input_tokens": 15987,
+    "output_tokens": 1583,
+    "cost_usd": 0.095608
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "case_id": "C02",
+  "pic": "Kevin",
+  "scenario": "正常",
+  "scanned": false,
+  "files": {
+    "invoice": "嘉鴻6118 IV.pdf",
+    "attachment": "嘉鴻6118.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "approval": [
+      2,
+      2
+    ],
+    "spec": [
+      3,
+      3
+    ],
+    "dimension_report": [
+      4,
+      5
+    ],
+    "commitment": [
+      6,
+      6
+    ],
+    "photos": [
+      7,
+      9
+    ],
+    "cost_breakdown": [
+      10,
+      10
+    ],
+    "custody": [
+      11,
+      11
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "AB-37190256",
+      "invoice_date": "2026-10-31",
+      "vendor_name": "嘉鴻模具工業股份有限公司",
+      "po_no": "4502318812",
+      "mold_no": "KT-M260402",
+      "currency": "TWD",
+      "amount_untaxed": 1286000.0,
+      "tax": 64300
+    },
+    "po": {
+      "po_no": "4502318812",
+      "po_date": "2026-04-02",
+      "vendor_code": "200108",
+      "vendor_name": "嘉鴻模具工業股份有限公司",
+      "mold_no": "KT-M260402",
+      "currency": "TWD",
+      "amount": 1286000.0
+    },
+    "commitment": {
+      "po_no": "4502318812",
+      "mold_no": "KT-M260402",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260402",
+      "po_no": "4502318812",
+      "approval_date": "2026-06-30",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "qa",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260402",
+      "cavities": "1x2",
+      "steel": "NAK80",
+      "shot_life": 500000
+    },
+    "custody": {
+      "po_no": "4502318812",
+      "mold_no": "KT-M260402",
+      "storage_location": "廠商端－嘉鴻五股廠 2F 模具區",
+      "custodian_id": "K30112"
+    },
+    "cost_breakdown": {
+      "po_no": "4502318812",
+      "mold_no": "KT-M260402",
+      "currency": "TWD",
+      "total": 1286000.0
+    }
+  },
+  "expected_issues": [],
+  "expected_outcome": "ready_to_sign",
+  "acceptance_form": {
+    "申請人": "陳冠宇",
+    "部門": "採購部",
+    "廠商名稱": "嘉鴻模具工業股份有限公司",
+    "廠商代號": "200108",
+    "PO 號": "4502318812",
+    "PO 項次": "10",
+    "GR 號": "5000871266",
+    "收貨日期": "2026-07-21",
+    "驗收日期": "2026-06-30",
+    "資產類別": "模具",
+    "品名": "TWS 充電盒上蓋 射出模 1x2",
+    "模具編號": "KT-M260402",
+    "模穴數": "1x2",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "TWD",
+    "未稅總價": 1286000.0,
+    "存放地點": "廠商端－嘉鴻五股廠 2F 模具區",
+    "保管人工號": "K30112",
+    "保管人姓名": "吳佳蓉"
+  }
+}

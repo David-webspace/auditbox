@@ -1,0 +1,123 @@
+{
+  "case_id": "C01",
+  "pic": "Amber",
+  "scenario": "正常",
+  "scanned": false,
+  "files": {
+    "invoice": "恆岳2041 IV.pdf",
+    "attachment": "恆岳2041.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "approval": [
+      2,
+      2
+    ],
+    "custody": [
+      3,
+      3
+    ],
+    "cost_breakdown": [
+      4,
+      4
+    ],
+    "dimension_report": [
+      5,
+      7
+    ],
+    "photos": [
+      8,
+      15
+    ],
+    "commitment": [
+      16,
+      16
+    ],
+    "spec": [
+      17,
+      17
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "HY-INV-2026-0917",
+      "invoice_date": "2026-10-28",
+      "vendor_name": "DONGGUAN HENGYUE PRECISION MOULD CO., LTD",
+      "po_no": "4502318801",
+      "mold_no": "KT-M260318",
+      "currency": "USD",
+      "amount_untaxed": 48500.0,
+      "tax": 0
+    },
+    "po": {
+      "po_no": "4502318801",
+      "po_date": "2026-03-18",
+      "vendor_code": "100231",
+      "vendor_name": "东莞恒岳精密模具有限公司",
+      "mold_no": "KT-M260318",
+      "currency": "USD",
+      "amount": 48500.0
+    },
+    "commitment": {
+      "po_no": "4502318801",
+      "mold_no": "KT-M260318",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260318",
+      "po_no": "4502318801",
+      "approval_date": "2026-06-22",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "qa",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260318",
+      "cavities": "1x4",
+      "steel": "SKD61",
+      "shot_life": 300000
+    },
+    "custody": {
+      "po_no": "4502318801",
+      "mold_no": "KT-M260318",
+      "storage_location": "廠商端－東莞恒岳長安廠 B 棟模具倉",
+      "custodian_id": "K30045"
+    },
+    "cost_breakdown": {
+      "po_no": "4502318801",
+      "mold_no": "KT-M260318",
+      "currency": "USD",
+      "total": 48500.0
+    }
+  },
+  "expected_issues": [],
+  "expected_outcome": "ready_to_sign",
+  "acceptance_form": {
+    "申請人": "林雅婷",
+    "部門": "採購部",
+    "廠商名稱": "東莞恆岳精密模具有限公司",
+    "廠商代號": "100231",
+    "PO 號": "4502318801",
+    "PO 項次": "10",
+    "GR 號": "5000871204",
+    "收貨日期": "2026-07-15",
+    "驗收日期": "2026-06-22",
+    "資產類別": "模具",
+    "品名": "QSFP-DD 800G 外殼上蓋 鋅合金壓鑄模 1x4",
+    "模具編號": "KT-M260318",
+    "模穴數": "1x4",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "USD",
+    "未稅總價": 48500.0,
+    "存放地點": "廠商端－東莞恆岳長安廠 B 棟模具倉",
+    "保管人工號": "K30045",
+    "保管人姓名": "黃柏翰"
+  }
+}

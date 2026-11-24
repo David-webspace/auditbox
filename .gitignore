@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+eval/runs/*.log
+demo/02_驗收單/*
+demo/03_已處理/*
+demo/04_人工處理/*
+demo/Logs/*
+!demo/**/.gitkeep
+workspace/
+web/out/
+web/node_modules/
+web/.next/
+.pytest_cache/
+web/tsconfig.tsbuildinfo

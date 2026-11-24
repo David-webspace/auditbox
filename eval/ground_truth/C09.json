@@ -1,0 +1,125 @@
+{
+  "case_id": "C09",
+  "pic": "Ming",
+  "scenario": "重複請款",
+  "scanned": false,
+  "files": {
+    "invoice": "恆岳2066 IV.pdf",
+    "attachment": "恆岳2066.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "custody": [
+      2,
+      2
+    ],
+    "spec": [
+      3,
+      3
+    ],
+    "dimension_report": [
+      4,
+      6
+    ],
+    "photos": [
+      7,
+      12
+    ],
+    "cost_breakdown": [
+      13,
+      13
+    ],
+    "approval": [
+      14,
+      14
+    ],
+    "commitment": [
+      15,
+      15
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "HY-INV-2026-0784",
+      "invoice_date": "2026-09-18",
+      "vendor_name": "DONGGUAN HENGYUE PRECISION MOULD CO., LTD",
+      "po_no": "4502318938",
+      "mold_no": "KT-M260611",
+      "currency": "USD",
+      "amount_untaxed": 52600.0,
+      "tax": 0
+    },
+    "po": {
+      "po_no": "4502318938",
+      "po_date": "2026-06-11",
+      "vendor_code": "100231",
+      "vendor_name": "东莞恒岳精密模具有限公司",
+      "mold_no": "KT-M260611",
+      "currency": "USD",
+      "amount": 52600.0
+    },
+    "commitment": {
+      "po_no": "4502318938",
+      "mold_no": "KT-M260611",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260611",
+      "po_no": "4502318938",
+      "approval_date": "2026-08-26",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "qa",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260611",
+      "cavities": "1x2",
+      "steel": "H13",
+      "shot_life": 200000
+    },
+    "custody": {
+      "po_no": "4502318938",
+      "mold_no": "KT-M260611",
+      "storage_location": "廠商端－東莞恒岳長安廠 B 棟模具倉",
+      "custodian_id": "K30187"
+    },
+    "cost_breakdown": {
+      "po_no": "4502318938",
+      "mold_no": "KT-M260611",
+      "currency": "USD",
+      "total": 52600.0
+    }
+  },
+  "expected_issues": [
+    "R10"
+  ],
+  "expected_outcome": "internal_action",
+  "acceptance_form": {
+    "申請人": "王思明",
+    "部門": "採購部",
+    "廠商名稱": "東莞恆岳精密模具有限公司",
+    "廠商代號": "100231",
+    "PO 號": "4502318938",
+    "PO 項次": "10",
+    "GR 號": "5000871533",
+    "收貨日期": "2026-09-15",
+    "驗收日期": "2026-08-26",
+    "資產類別": "模具",
+    "品名": "OSFP 散熱鰭片 鋁壓鑄模 1x2",
+    "模具編號": "KT-M260611",
+    "模穴數": "1x2",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "USD",
+    "未稅總價": 52600.0,
+    "存放地點": "廠商端－東莞恆岳長安廠 B 棟模具倉",
+    "保管人工號": "K30187",
+    "保管人姓名": "許志明"
+  }
+}

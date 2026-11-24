@@ -1,0 +1,125 @@
+{
+  "case_id": "C05",
+  "pic": "Kevin",
+  "scenario": "承諾書 PO 號打錯",
+  "scanned": false,
+  "files": {
+    "invoice": "昆睿1187 IV.pdf",
+    "attachment": "昆睿1187.pdf"
+  },
+  "pages": {
+    "po": [
+      1,
+      1
+    ],
+    "dimension_report": [
+      2,
+      4
+    ],
+    "commitment": [
+      5,
+      5
+    ],
+    "cost_breakdown": [
+      6,
+      6
+    ],
+    "spec": [
+      7,
+      7
+    ],
+    "photos": [
+      8,
+      13
+    ],
+    "custody": [
+      14,
+      14
+    ],
+    "approval": [
+      15,
+      15
+    ]
+  },
+  "extraction": {
+    "invoice": {
+      "invoice_no": "04412688",
+      "invoice_date": "2026-11-03",
+      "vendor_name": "昆山昆睿压铸有限公司",
+      "po_no": "4502318874",
+      "mold_no": "KT-M260506",
+      "currency": "RMB",
+      "amount_untaxed": 386000.0,
+      "tax": 50180.0
+    },
+    "po": {
+      "po_no": "4502318874",
+      "po_date": "2026-05-06",
+      "vendor_code": "100452",
+      "vendor_name": "昆山昆睿压铸有限公司",
+      "mold_no": "KT-M260506",
+      "currency": "RMB",
+      "amount": 386000.0
+    },
+    "commitment": {
+      "po_no": "4502318847",
+      "mold_no": "KT-M260506",
+      "vendor_stamped": true
+    },
+    "approval": {
+      "mold_no": "KT-M260506",
+      "po_no": "4502318874",
+      "approval_date": "2026-07-29",
+      "result": "approved",
+      "signed_roles": [
+        "design",
+        "qa",
+        "me"
+      ]
+    },
+    "spec": {
+      "mold_no": "KT-M260506",
+      "cavities": "1x2",
+      "steel": "H13",
+      "shot_life": 150000
+    },
+    "custody": {
+      "po_no": "4502318874",
+      "mold_no": "KT-M260506",
+      "storage_location": "厂商端－昆山昆睿玉山厂 压铸模具库",
+      "custodian_id": "K30045"
+    },
+    "cost_breakdown": {
+      "po_no": "4502318874",
+      "mold_no": "KT-M260506",
+      "currency": "RMB",
+      "total": 386000.0
+    }
+  },
+  "expected_issues": [
+    "R02"
+  ],
+  "expected_outcome": "need_vendor_docs",
+  "acceptance_form": {
+    "申請人": "陳冠宇",
+    "部門": "採購部",
+    "廠商名稱": "崑山昆睿壓鑄有限公司",
+    "廠商代號": "100452",
+    "PO 號": "4502318874",
+    "PO 項次": "10",
+    "GR 號": "5000871402",
+    "收貨日期": "2026-08-25",
+    "驗收日期": "2026-07-29",
+    "資產類別": "模具",
+    "品名": "智慧手錶中框 鋁合金壓鑄模 1x2",
+    "模具編號": "KT-M260506",
+    "模穴數": "1x2",
+    "數量": 1,
+    "單位": "SET",
+    "幣別": "RMB",
+    "未稅總價": 386000.0,
+    "存放地點": "廠商端－崑山昆睿玉山廠 壓鑄模具庫",
+    "保管人工號": "K30045",
+    "保管人姓名": "黃柏翰"
+  }
+}

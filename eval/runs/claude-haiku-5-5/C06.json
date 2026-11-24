@@ -1,0 +1,404 @@
+{
+  "files": {
+    "invoice": "VietAn3307 IV.pdf",
+    "attachment": "VietAn3307.pdf"
+  },
+  "llm": "claude:claude-haiku-5-5",
+  "pages": [
+    {
+      "file": "invoice",
+      "page": 1,
+      "type": "invoice",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 1,
+      "type": "po",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 2,
+      "type": "commitment",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 3,
+      "type": "custody",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 4,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 5,
+      "type": "photos",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 6,
+      "type": "dimension_report",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 7,
+      "type": "cost_breakdown",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 8,
+      "type": "spec",
+      "method": "keyword"
+    },
+    {
+      "file": "attachment",
+      "page": 9,
+      "type": "approval",
+      "method": "keyword"
+    }
+  ],
+  "documents": {
+    "invoice": {
+      "file": "invoice",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "invoice_no": {
+          "value": "VAM-INV-26-0388",
+          "raw": "VAM-INV-26-0388",
+          "page": 1,
+          "quote": "Invoice No. VAM-INV-26-0388",
+          "verified": true
+        },
+        "invoice_date": {
+          "value": "2026-11-04",
+          "raw": "04 Nov 2026",
+          "page": 1,
+          "quote": "Invoice Date 04 Nov 2026",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "VIET AN MOLD TECHNOLOGY CO., LTD",
+          "raw": "VIET AN MOLD TECHNOLOGY CO., LTD",
+          "page": 1,
+          "quote": "VIET AN MOLD TECHNOLOGY CO., LTD Lot C2, Que Vo Industrial Park",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318885",
+          "raw": "4502318885",
+          "page": 1,
+          "quote": "Customer PO 4502318885",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260512",
+          "raw": "KT-M260512",
+          "page": 1,
+          "quote": "POWER BANK HOUSING INJECTION MOLD 1x1 KT-M260512",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "Currency USD Incoterms EXW",
+          "verified": true
+        },
+        "amount_untaxed": {
+          "value": 21900.0,
+          "raw": "USD 21,900.00",
+          "page": 1,
+          "quote": "TOTAL USD 21,900.00",
+          "verified": true
+        },
+        "tax": {
+          "value": null,
+          "raw": null,
+          "page": 1,
+          "quote": "Tax: zero-rated export of tooling",
+          "verified": null
+        }
+      }
+    },
+    "po": {
+      "file": "attachment",
+      "pages": [
+        1
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318885",
+          "raw": "4502318885",
+          "page": 1,
+          "quote": "採購單號 PO No. 4502318885",
+          "verified": true
+        },
+        "po_date": {
+          "value": "2026-05-12",
+          "raw": "2026/05/12",
+          "page": 1,
+          "quote": "訂單日期 Date 2026/05/12",
+          "verified": true
+        },
+        "vendor_code": {
+          "value": "300041",
+          "raw": "300041",
+          "page": 1,
+          "quote": "供應商代號 Vendor 300041",
+          "verified": true
+        },
+        "vendor_name": {
+          "value": "VIET AN MOLD TECHNOLOGY CO., LTD",
+          "raw": "VIET AN MOLD TECHNOLOGY CO., LTD",
+          "page": 1,
+          "quote": "供應商 Supplier VIET AN MOLD TECHNOLOGY CO., LTD",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260512",
+          "raw": "KT-M260512",
+          "page": 1,
+          "quote": "模具編號 KT-M260512",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 1,
+          "quote": "幣別 Currency USD",
+          "verified": true
+        },
+        "amount": {
+          "value": 21900.0,
+          "raw": "21,900.00",
+          "page": 1,
+          "quote": "未稅合計 USD 21,900.00",
+          "verified": true
+        }
+      }
+    },
+    "commitment": {
+      "file": "attachment",
+      "pages": [
+        2
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318885",
+          "raw": "4502318885",
+          "page": null,
+          "quote": "purchase order 4502318885 for mold KT-M260512",
+          "verified": null
+        },
+        "mold_no": {
+          "value": "KT-M260512",
+          "raw": "KT-M260512",
+          "page": null,
+          "quote": "order 4502318885 for mold KT-M260512 and commit to",
+          "verified": null
+        },
+        "vendor_stamped": {
+          "value": true,
+          "raw": "yes",
+          "page": null,
+          "quote": "VIET AN MOLD T COMPANY SEAL",
+          "verified": null
+        }
+      }
+    },
+    "custody": {
+      "file": "attachment",
+      "pages": [
+        3
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318885",
+          "raw": "4502318885",
+          "page": 3,
+          "quote": "PO No. 4502318885",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260512",
+          "raw": "KT-M260512",
+          "page": 3,
+          "quote": "Mold No. KT-M260512",
+          "verified": true
+        },
+        "storage_location": {
+          "value": "Vendor site - Viet An Que Vo plant, Tool Store 1",
+          "raw": "Vendor site - Viet An Que Vo plant, Tool Store 1",
+          "page": 3,
+          "quote": "Storage Location Vendor site - Viet An Que Vo plant, Tool Store 1",
+          "verified": true
+        },
+        "custodian_id": {
+          "value": "K30301",
+          "raw": "K30301",
+          "page": 3,
+          "quote": "Buyer Custodian Ziqing Kao（K30301）",
+          "verified": true
+        }
+      }
+    },
+    "photos": {
+      "file": "attachment",
+      "pages": [
+        4,
+        5
+      ],
+      "fields": {}
+    },
+    "dimension_report": {
+      "file": "attachment",
+      "pages": [
+        6
+      ],
+      "fields": {}
+    },
+    "cost_breakdown": {
+      "file": "attachment",
+      "pages": [
+        7
+      ],
+      "scanned": false,
+      "fields": {
+        "po_no": {
+          "value": "4502318885",
+          "raw": "4502318885",
+          "page": 7,
+          "quote": "PO No. 4502318885",
+          "verified": true
+        },
+        "mold_no": {
+          "value": "KT-M260512",
+          "raw": "KT-M260512",
+          "page": 7,
+          "quote": "Mold No. KT-M260512",
+          "verified": true
+        },
+        "currency": {
+          "value": "USD",
+          "raw": "USD",
+          "page": 7,
+          "quote": "Currency USD",
+          "verified": true
+        },
+        "total": {
+          "value": 21900.0,
+          "raw": "USD 21,900.00",
+          "page": 7,
+          "quote": "Total USD 21,900.00",
+          "verified": true
+        }
+      }
+    },
+    "spec": {
+      "file": "attachment",
+      "pages": [
+        8
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260512",
+          "raw": "KT-M260512",
+          "page": 8,
+          "quote": "Mold No. KT-M260512 Part No. 41-PB20-HS01",
+          "verified": true
+        },
+        "cavities": {
+          "value": "1x1",
+          "raw": "1x1",
+          "page": 8,
+          "quote": "Cavities 1x1 Steel NAK80",
+          "verified": true
+        },
+        "steel": {
+          "value": "NAK80",
+          "raw": "NAK80",
+          "page": 8,
+          "quote": "Steel NAK80 Mold base LKM CI-2025",
+          "verified": true
+        },
+        "shot_life": {
+          "value": 300000,
+          "raw": "300,000",
+          "page": 8,
+          "quote": "Design Life (shots) 300,000 Cycle time (s) 25",
+          "verified": true
+        }
+      }
+    },
+    "approval": {
+      "file": "attachment",
+      "pages": [
+        9
+      ],
+      "scanned": false,
+      "fields": {
+        "mold_no": {
+          "value": "KT-M260512",
+          "raw": "KT-M260512",
+          "page": 9,
+          "quote": "Mold No. KT-M260512 Part No. 41-PB20-HS01",
+          "verified": true
+        },
+        "po_no": {
+          "value": "4502318885",
+          "raw": "4502318885",
+          "page": 9,
+          "quote": "PO No. 4502318885 Steel NAK80",
+          "verified": true
+        },
+        "approval_date": {
+          "value": "2026-08-05",
+          "raw": "2026-08-05",
+          "page": 9,
+          "quote": "Result：APPROVED Date：2026-08-05",
+          "verified": true
+        },
+        "result": {
+          "value": "approved",
+          "raw": "APPROVED",
+          "page": 9,
+          "quote": "Result：APPROVED Date：2026-08-05",
+          "verified": true
+        },
+        "signed_roles": {
+          "value": [
+            "design",
+            "me"
+          ],
+          "raw": "design,me",
+          "page": 9,
+          "quote": "Mold Design Nguyen Van Minh 2026-08-05 QA ME Ziqing Kao",
+          "verified": null
+        }
+      }
+    }
+  },
+  "seconds": 16.3,
+  "usage": {
+    "calls": 7,
+    "input_tokens": 14704,
+    "output_tokens": 1666,
+    "cost_usd": 0.002303
+  }
+}
